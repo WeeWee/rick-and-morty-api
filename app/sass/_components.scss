@@ -1,0 +1,128 @@
+@use "base";
+@mixin status-icon-color($color) {
+	display: inline-block;
+	height: 0.5rem;
+	width: 0.5rem;
+	margin-right: 0.375rem;
+	background: $color;
+	border-radius: 50%;
+}
+.status-icon-alive {
+	@include status-icon-color(rgb(85, 204, 68));
+}
+.status-icon-dead {
+	@include status-icon-color(rgb(204, 68, 68));
+}
+.status-icon-unknown {
+	@include status-icon-color(rgb(204, 131, 68));
+}
+.character-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.character-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.character-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0.75rem;
+	background-color: base.$dark-color-3;
+	border-radius: 1rem;
+	height: 220px;
+	width: 600px;
+	overflow: hidden;
+
+	div {
+		flex: 2 1 0%;
+		width: 100%;
+		img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+			object-position: center center;
+		}
+	}
+	article {
+		margin-left: 1rem;
+		display: flex;
+		flex: 3 1 0%;
+		flex-direction: column;
+		padding: 0.75rem;
+		position: relative;
+		color: white;
+
+		h1 {
+			font-weight: 800;
+			font-size: xx-large;
+		}
+		p {
+			font-size: medium;
+		}
+	}
+}
+.navbar {
+	display: flex;
+	height: 3rem;
+	justify-content: center;
+	align-items: center;
+
+	ul {
+		width: 20rem;
+		display: flex;
+		justify-content: space-between;
+		li {
+			a {
+				color: base.$light-color;
+			}
+		}
+	}
+}
+.change-page-section {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0.5rem;
+	.change-page {
+		display: flex;
+
+		justify-content: space-between;
+		align-items: center;
+		height: max-content;
+		width: 600px;
+		a {
+			padding: 0px 10px;
+			background-color: base.$dark-color-4;
+
+			color: base.$light-color;
+			border-radius: 0.25rem;
+		}
+	}
+}
+.character-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	section {
+		width: 300px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 1.5rem;
+		h1 {
+			font-size: xx-large;
+		}
+		h3 {
+			font-size: x-large;
+		}
+		p {
+			font-size: large;
+		}
+	}
+}
