@@ -17,8 +17,6 @@ This website was made for my course "WD-JS-ext" as the final project.
     
 ### App
     
-  
-    
    Includes all the boilerplate code including **Components**, **Css**, **Sass** and our **Routes**
    
   <ul>
@@ -44,4 +42,20 @@ This website was made for my course "WD-JS-ext" as the final project.
 
 This folder consists of an **Character Component**, **Filter Component**, **Footer Component** and a **Navbar Component**.
   
-   </ul> 
+</ul> 
+
+## API
+
+### URLs
+
+[The Base Url](https://rickandmortyapi.com/api) 
+
+<ul>
+
+  [Fetch the 6 first Characters](https://rickandmortyapi.com/api/character/[1,2,3,4,5,6])
+  [Fetch the Location Data with Location Id](https://rickandmortyapi.com/api/location/)
+  [Fetch the Character Data with Character Id](https://rickandmortyapi.com/api/character/)
+  [Fetch the Character Array and next/previous fetch url from Search Query](https://rickandmortyapi.com/api/character/?name=)
+  [Fetch the Characters with a specific filter](https://rickandmortyapi.com/api/character/?status=)
+</ul> 
+
