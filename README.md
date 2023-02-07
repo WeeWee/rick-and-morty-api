@@ -11,19 +11,19 @@ This website was made for my course "WD-JS-ext" as the final project.
 
 ## File structure
 
-### App
+- ### App
 Includes all the boilerplate code including **Components**, **Css**, **Sass** and our **Routes**
 
-### Routes
+- ### Routes
 Consists of **Character folder**, **index.tsx** and **results.tsx**.
-#### Character folder 
+  - #### Character folder 
 Consists of **$characterId.tsx** file which is a dynamic file in **[Remix.JS](https://remix.run/)** and is used to display the more in depth Character data.
-#### Index
+  - #### Index
 This file is the landing page of the website which display the Navbar, 6 Rick and Morty Characters and the Footer.
-#### Results
+  - #### Results
 This file display what Character the user has searched in the search bar and is paginated meaning if you get more than 20 results you can change page.
 It also has a Filter button making it easy for the user to narrow the search down by filtering through Status (Alive, Dead, Unkown), Gender (Male, Female, Genderless, Unknown) and Species (Human, Humanoid, Animal, Robot, Unknown).
 The Filter Menu also provides the user with an Apply Filters button and a Clear filters button.
 
-### Components
+- ### Components
 This folder consists of an **Character Component**, **Filter Component**, **Footer Component** and a **Navbar Component**.
