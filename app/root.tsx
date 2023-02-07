@@ -12,12 +12,10 @@ import {
 	Outlet,
 	Scripts,
 	ScrollRestoration,
-	useLoaderData,
-	useLocation,
 } from "@remix-run/react";
 import styles from "./css/styles.css";
 import { Navbar } from "./components/navbar";
-import { useEffect } from "react";
+
 import { visitedCount } from "./utils/cookie";
 export const meta: MetaFunction = () => ({
 	charset: "utf-8",

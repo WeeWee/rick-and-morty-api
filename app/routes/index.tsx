@@ -2,9 +2,8 @@ import { LoaderArgs, LoaderFunction } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 
 import { Character } from "~/components/character";
-import { Filter } from "~/components/filter";
 import { Footer } from "~/components/footer";
-import { Characters, MultipleCharacters } from "~/types";
+import { MultipleCharacters } from "~/types";
 import { visitedCount } from "~/utils/cookie";
 type ReturnType = {
 	characters: MultipleCharacters;
