@@ -20,9 +20,7 @@ export type Characters = {
 	info: Info;
 	results: CharacterType[];
 };
-export type MultipleCharacters = {
-	results: CharacterType[];
-};
+export type MultipleCharacters = CharacterType[];
 type Info = {
 	count: number;
 	pages: number;
@@ -30,9 +28,9 @@ type Info = {
 	prev: null | string;
 };
 export type LocationType = {
-	id: number,
-	name: string,
-	type: string,
-	dimension: string
-	residents: string[]
-}
+	id: number;
+	name: string;
+	type: string;
+	dimension: string;
+	residents: string[];
+};

@@ -1,6 +1,6 @@
 @use "base";
 @use "components";
-
+@use "pages";
 html {
 	font: 112.5%/1.625 -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto",
 		"Helvetica", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -9,7 +9,10 @@ html {
 body {
 	background-color: base.$dark-color-2;
 	color: base.$light-color;
-	margin: 0px 4rem;
+	@include base.media-query(base.$md-break-point) {
+		margin: 0px 4rem;
+	}
+	margin: 0px 0.5rem;
 	min-height: 100vh;
 	position: relative;
 	div {
