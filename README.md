@@ -1,18 +1,18 @@
 # Rick and Morty!!
 
-<ul>
  
-<li>
+
 
   I made a Rick and Morty website using the [Rick and Morty API](https://rickandmortyapi.com).
 
-</li>
+
   
-<li>
+
 
   This website was made for my course "WD-JS-ext" as the final project.
 
-</li>
+
+<ul>
   
 <li>
   
