@@ -3,7 +3,7 @@
  
 
 
-  I made a Rick and Morty website using the [Rick and Morty API](https://rickandmortyapi.com).
+  I made a Rick and Morty website using the [Rick and Morty API](https://rickandmortyapi.com){:target="_blank"}.
 
 
   
@@ -16,7 +16,7 @@
   
 <li>
   
- [**Visit it here!**](https://rick-and-morty-api-adam-kindberg.vercel.app/)
+ [**Visit it here!**](https://rick-and-morty-api-adam-kindberg.vercel.app/){:target="_blank"}
 
 </li>
     
@@ -43,7 +43,7 @@
 ### Routes
    Consists of **Character folder**, **index.tsx** and **results.tsx**.
 #### Character folder 
-   Consists of **$characterId.tsx** file which is a dynamic file in **[Remix.JS](https://remix.run/)** and is used to display the more in depth Character data.
+   Consists of **$characterId.tsx** file which is a dynamic file in **[Remix.JS](https://remix.run/){:target="_blank"}** and is used to display the more in depth Character data.
 #### Index
    This file is the landing page of the website which display the Navbar, 6 Rick and Morty Characters and the Footer.
 #### Results
@@ -65,7 +65,7 @@ This folder consists of an **Character Component**, **Filter Component**, **Foot
 
 ## API
 
-#### [The Base URL](https://rickandmortyapi.com/api) 
+#### [The Base URL](https://rickandmortyapi.com/api){:target="_blank"}
 
 #### URLs
 
@@ -111,5 +111,5 @@ This folder consists of an **Character Component**, **Filter Component**, **Foot
 
 ## Developer
 #### Thanks for reading this far!
-#### [**Add me on LinkedIn!**](https://www.linkedin.com/in/adam-kindberg/)
-#### [**Follow me on Github!**](https://github.com/WeeWee)
+#### [**Add me on LinkedIn!**](https://www.linkedin.com/in/adam-kindberg/){:target="_blank"}
+#### [**Follow me on Github!**](https://github.com/WeeWee){:target="_blank"}
