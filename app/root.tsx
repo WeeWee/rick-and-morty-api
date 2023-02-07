@@ -21,18 +21,27 @@ import { useEffect } from "react";
 import { visitedCount } from "./utils/cookie";
 export const meta: MetaFunction = () => ({
 	charset: "utf-8",
-	title: "New Remix App",
+	title: "The Rick and Morty Website",
 	viewport: "width=device-width,initial-scale=1",
 });
 export const links: LinksFunction = () => {
-	return [{ rel: "stylesheet", href: styles }];
+	return [
+		{
+			rel: "icon",
+			href: "/favicon.png",
+			
+			sizes: "64x64",
+			type: "image/png",
+		},
+		{ rel: "stylesheet", href: styles },
+	];
 };
 export const loader: LoaderFunction = async ({ request }: LoaderArgs) => {
 	const cookieHeader = request.headers.get("Cookie");
 	const visitedCountCookie = await visitedCount.parse(cookieHeader);
 	console.log(visitedCountCookie);
-	const newCount = visitedCountCookie.count + 1;
 	if (visitedCountCookie) {
+		const newCount = visitedCountCookie.count + 1;
 		return json(
 			{ count: visitedCountCookie.count },
 			{

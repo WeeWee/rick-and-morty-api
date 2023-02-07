@@ -18,7 +18,11 @@ export const loader: LoaderFunction = async ({ request }: LoaderArgs) => {
 	);
 	const json = (await data.json()) as MultipleCharacters;
 	//console.log(json);
-
+	if (!visitedCountCookie)
+		return {
+			characters: json,
+			count: null,
+		};
 	return {
 		characters: json,
 		count: visitedCountCookie.count,

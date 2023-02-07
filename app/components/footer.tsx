@@ -2,9 +2,13 @@ export const Footer = ({ count }: { count: number }) => {
 	return (
 		<footer className="footer">
 			<section>
-				<p>
-					Visit count: <span>{count}</span>
-				</p>
+				{count ? (
+					<p>
+						Visit count: <span>{count}</span>
+					</p>
+				) : (
+					""
+				)}
 				<h4>
 					Made by{" "}
 					<a href="https://www.linkedin.com/in/adam-kindberg/">Adam Kindberg</a>

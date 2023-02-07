@@ -2,7 +2,8 @@
 	"private": true,
 	"sideEffects": false,
 	"scripts": {
-		"build": "remix build",
+		"build": "npm run build:css && remix build",
+		"build:css": "sass ./app/sass:./app/css --style compressed",
 		"dev:css": "sass ./app/sass:./app/css --watch",
 		"dev": "concurrently \"npm run dev:css\" \"remix dev\" ",
 		"typecheck": "tsc"
