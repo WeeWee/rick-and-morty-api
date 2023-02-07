@@ -51,11 +51,36 @@ This folder consists of an **Character Component**, **Filter Component**, **Foot
 [The Base Url](https://rickandmortyapi.com/api) 
 
 <ul>
-
+  
+  <li>
+    
   [Fetch the 6 first Characters](https://rickandmortyapi.com/api/character/[1,2,3,4,5,6])
+  
+  </li> 
+   
+  <li>
+    
   [Fetch the Location Data with Location Id](https://rickandmortyapi.com/api/location/)
+    
+  </li> 
+  
+  <li>
+    
   [Fetch the Character Data with Character Id](https://rickandmortyapi.com/api/character/)
+    
+  </li> 
+  
+  <li>
+    
   [Fetch the Character Array and next/previous fetch url from Search Query](https://rickandmortyapi.com/api/character/?name=)
+    
+  </li>
+  
+  <li>
+    
   [Fetch the Characters with a specific filter](https://rickandmortyapi.com/api/character/?status=)
+    
+  </li>
+  
 </ul> 
 
