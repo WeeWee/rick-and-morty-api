@@ -90,7 +90,7 @@ This folder consists of an **Character Component**, **Filter Component**, **Foot
 #### Framework built on top of React, great for building a website both frontend and backend.
 #### [More Info!](https://remix.run/)
 
-### Developer
+## Developer
 #### Thanks for reading this far!
 #### [**Add me on LinkedIn!**](https://www.linkedin.com/in/adam-kindberg/)
 #### [**Follow me on Github!**](https://github.com/WeeWee)
