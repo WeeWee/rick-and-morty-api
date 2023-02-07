@@ -46,9 +46,9 @@ This folder consists of an **Character Component**, **Filter Component**, **Foot
 
 ## API
 
-### URLs
+#### [The Base Url](https://rickandmortyapi.com/api) 
 
-[The Base Url](https://rickandmortyapi.com/api) 
+#### URLs
 
 <ul>
   
