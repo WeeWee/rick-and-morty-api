@@ -108,7 +108,7 @@ This folder consists of an **Character Component**, **Filter Component**, **Foot
 ### RemixJS
 #### Framework built on top of React, great for building a website both frontend and backend.
 #### [More Info!](https://remix.run/)
-
+### TypeScript, Sass, Ajax
 ## Developer
 #### Thanks for reading this far!
 #### [**Add me on LinkedIn!**](https://www.linkedin.com/in/adam-kindberg/)
