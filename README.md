@@ -1,4 +1,4 @@
-# Rick and Morty!!
+# The Rick and Morty Website
 
  
 
