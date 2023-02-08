@@ -16,7 +16,7 @@
   
 <li>
   
- [**Visit it here!**](https://rick-and-morty-api-adam-kindberg.vercel.app/)
+ [**Visit it here!**](https://rick-and-morty-adam-kindberg.vercel.app/)
 
 </li>
     
