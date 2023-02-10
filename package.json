@@ -1,34 +1,34 @@
 {
-	"private": true,
-	"sideEffects": false,
-	"scripts": {
-		"build": "npm run build:css && remix build",
-		"build:css": "sass ./app/sass:./app/css --style compressed",
-		"dev:css": "sass ./app/sass:./app/css --watch",
-		"dev": "concurrently \"npm run dev:css\" \"remix dev\" ",
-		"typecheck": "tsc"
-	},
-	"dependencies": {
-		"@heroicons/react": "^2.0.14",
-		"@remix-run/node": "^1.11.1",
-		"@remix-run/react": "^1.11.1",
-		"@remix-run/vercel": "^1.11.1",
-		"@vercel/node": "^2.6.2",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
-	},
-	"devDependencies": {
-		"@remix-run/dev": "^1.11.1",
-		"@remix-run/eslint-config": "^1.11.1",
-		"@remix-run/serve": "^1.11.1",
-		"@types/react": "^18.0.25",
-		"@types/react-dom": "^18.0.8",
-		"concurrently": "^7.6.0",
-		"eslint": "^8.27.0",
-		"sass": "^1.57.1",
-		"typescript": "^4.8.4"
-	},
-	"engines": {
-		"node": ">=14"
-	}
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "npm run build:css && remix build",
+    "build:css": "sass ./app/sass:./app/css --style compressed",
+    "dev:css": "sass ./app/sass:./app/css --watch",
+    "dev": "concurrently \"npm run dev:css\" \"remix dev\" ",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.11.1",
+    "@remix-run/react": "^1.11.1",
+    "@remix-run/vercel": "^1.11.1",
+    "@vercel/node": "^2.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.11.1",
+    "@remix-run/eslint-config": "^1.11.1",
+    "@remix-run/serve": "^1.11.1",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "concurrently": "^7.6.0",
+    "eslint": "^8.27.0",
+    "sass": "^1.57.1",
+    "typescript": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "author": "Adam Kindberg"
 }
