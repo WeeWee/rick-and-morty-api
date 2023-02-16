@@ -23,10 +23,10 @@
 </ul>
 
 ## To get started
-
-1. Start by git cloning the repo and when its cloned you need to run "npm install" or "yarn" to install the node modules.
-2. Run "npm run dev" or "yarn dev" to start the server.
-3. Visit the website on [Localhost](http://localhost:3000/).
+1. Git Clone repo, ```git clone https://github.com/WeeWee/rick-and-morty-api.git```
+2. Install node modules, run ```npm install``` or ```yarn```
+3. Start the server, run ```npm run dev``` or ```yarn dev```
+4. Visit the website on [Localhost](http://localhost:3000/).
 
 ## File structure
 
